@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿// Created by Andre Hazim
+// From Nov - Jan 2017-2018
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -69,11 +73,13 @@ public abstract class Character : MonoBehaviour {
     {
         if (facingRight)
         {
+            // throws the knife right
             GameObject tmp = Instantiate(knifePrefab, knifepos.position, Quaternion.Euler(new Vector3(0, 0, -90)));
             tmp.GetComponent<Knife>().Initiazlize(Vector2.right);
         }
         else
         {
+            // throws the knife left
             GameObject tmp = Instantiate(knifePrefab, knifepos.position, Quaternion.Euler(new Vector3(0, 0, 90)));
             tmp.GetComponent<Knife>().Initiazlize(Vector2.left);
         }
@@ -93,6 +99,7 @@ public abstract class Character : MonoBehaviour {
     {
         if (damageSources.Contains(other.tag))
         {
+            // sword damage
             if (other.tag == "Sword")
             {
                 health -= 20;
