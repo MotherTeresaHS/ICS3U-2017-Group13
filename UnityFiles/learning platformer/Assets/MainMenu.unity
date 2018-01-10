@@ -142,8 +142,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -97.30001}
-  m_SizeDelta: {x: 190, y: 63.2}
+  m_AnchoredPosition: {x: 3.0000095, y: -90.57001}
+  m_SizeDelta: {x: 177.12, y: 54.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236172483
 MonoBehaviour:
@@ -192,7 +192,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LoadGame
+          m_StringArgument: LevelSelect
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -262,8 +262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 165}
-  m_SizeDelta: {x: 466, y: 104}
+  m_AnchoredPosition: {x: 3, y: 136.2}
+  m_SizeDelta: {x: 434.42, y: 89.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302576307
 MonoBehaviour:
@@ -608,7 +608,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.780432
+  orthographic size: 9.938643
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -671,8 +671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -167.30002}
-  m_SizeDelta: {x: 190, y: 63.2}
+  m_AnchoredPosition: {x: 3.0000095, y: -151.09}
+  m_SizeDelta: {x: 177.12, y: 54.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253576010
 MonoBehaviour:
@@ -824,8 +824,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1675194131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.612, y: 2.608, z: 0}
-  m_LocalScale: {x: 3.7814438, y: 2.7559881, z: 1}
+  m_LocalPosition: {x: -7.676, y: 3.538, z: 0}
+  m_LocalScale: {x: 5.025978, y: 3.0039704, z: 1.0480168}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -862,8 +862,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.863}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44, y: 32}
-  m_SizeDelta: {x: 250.5, y: 231.3}
+  m_AnchoredPosition: {x: 44.02001, y: 21.219994}
+  m_SizeDelta: {x: 233.52, y: 199.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769184400
 MonoBehaviour:

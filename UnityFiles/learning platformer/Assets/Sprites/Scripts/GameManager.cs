@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿// Created by Andre Hazim
+// From Nov - Jan 2017-2018
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -30,7 +34,7 @@ public class GameManager : MonoBehaviour {
 
         
     }
-
+// manages the coins
     public GameObject CoinPreFab
     {
         get
