@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿// Created by Andre Hazim
+// From Nov - Jan 2017-2018
+//https://www.youtube.com/playlist?list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +11,8 @@ public delegate void DeadEventHandler();
 
 public class player : Character
 {
+    // Variables
+
 
     private static player instance;
 
