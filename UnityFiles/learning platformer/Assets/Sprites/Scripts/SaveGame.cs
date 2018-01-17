@@ -15,6 +15,9 @@ public class SaveGame : MonoBehaviour {
         player.Instance.HealthStat.CurrentValue = PlayerPrefs.GetFloat("Health", 100);
 
 
+       
+
+
 
         Player.position = new Vector3(PlayerPrefs.GetFloat("playerX"), PlayerPrefs.GetFloat("playerY"), PlayerPrefs.GetFloat("playerZ"));
         Player.eulerAngles = new Vector3(0, PlayerPrefs.GetFloat("CamY"), 0);
@@ -30,10 +33,9 @@ public class SaveGame : MonoBehaviour {
     public void SaveGameSettings(bool Quit)
     {
 
-      
-
+    
         PlayerPrefs.SetFloat("Health", player.Instance.HealthStat.CurrentValue);
-
+        
         PlayerPrefs.SetInt("Score", GameManager.Instance.CollectedCoins);
 
        

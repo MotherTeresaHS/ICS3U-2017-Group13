@@ -352,7 +352,7 @@ public class player : Character
         MyAnimator.SetTrigger("idle");
         HealthStat.CurrentValue = HealthStat.MaxValue;
         //transform.position = startPos;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("LevelSelect");
 
 
     }
@@ -410,6 +410,7 @@ public class player : Character
             GameManager.Instance.CollectedCoins++;
             Destroy(other.gameObject);
         }
+       
     }
     
 }
