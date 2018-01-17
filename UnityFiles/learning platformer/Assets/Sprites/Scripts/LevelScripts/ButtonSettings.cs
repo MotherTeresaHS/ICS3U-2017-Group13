@@ -8,26 +8,49 @@ using System.Collections;
 
 public class ButtonSettings : MonoBehaviour
 {
+    private static ButtonSettings instance;
     public static int releasedLevelStatic = 1;
+    
     public int releasedLevel;
     public string nextLevel;
 
+    public int ReleasedLevel
+    {
+        get
+        {
+            return releasedLevel;
+        }
+
+        set
+        {
+            releasedLevel = value;
+        }
+    }
+
+    public static ButtonSettings Instance
+    {
+        get
+        {
+            return instance;
+        }
+
+        set
+        {
+            instance = value;
+        }
+    }
 
     void Awake()
     {
-        if (PlayerPrefs.HasKey("Level"))
-        {
-            releasedLevelStatic = PlayerPrefs.GetInt("Level", releasedLevelStatic);
-
-        }
+       
     }
 
     public void ButtonNextLevel()
     {
         SceneManager.LoadScene(nextLevel);
-        if (releasedLevelStatic <= releasedLevel)
+        if (releasedLevelStatic <= ReleasedLevel)
         {
-            releasedLevelStatic = releasedLevel;
+            releasedLevelStatic = ReleasedLevel;
             PlayerPrefs.SetInt("Level", releasedLevelStatic);
             Time.timeScale = 1;
 
