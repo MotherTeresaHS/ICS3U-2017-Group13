@@ -91,6 +91,8 @@
     <Compile Include="Assets\AnimationBehaviours\landBehaviour.cs" />
     <Compile Include="Assets\AnimationBehaviours\RotationBehaviour.cs" />
     <Compile Include="Assets\AnimationBehaviours\SlideBehaviour.cs" />
+    <Compile Include="Assets\Sprites\Scripts\backgroundsound.cs" />
+    <Compile Include="Assets\Sprites\Scripts\ButtonSound.cs" />
     <Compile Include="Assets\Sprites\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Sprites\Scripts\Character.cs" />
     <Compile Include="Assets\Sprites\Scripts\Collider.cs" />
@@ -117,6 +119,7 @@
     <Compile Include="Assets\Sprites\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Sprites\Scripts\player.cs" />
     <Compile Include="Assets\Sprites\Scripts\SaveGame.cs" />
+    <Compile Include="Assets\Sprites\Scripts\soundeffects.cs" />
     <Compile Include="Assets\Sprites\Scripts\Stats.cs" />
     <Compile Include="Assets\Sprites\Scripts\SwordCollider.cs" />
     <Compile Include="Assets\Sprites\Scripts\WinCollider.cs" />

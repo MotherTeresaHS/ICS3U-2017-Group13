@@ -1,4 +1,4 @@
-﻿// Created by Andre Hazim
+﻿// Created by Andre Hazim & Ray
 // From Nov - Jan 2017-2018
 //https://www.youtube.com/playlist?list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO
 
@@ -288,6 +288,7 @@ public class player : Character
     {
         if(!OnGround && value == 1 || OnGround && value == 0)
         {
+            
             base.ThrowKnife(value);
         }
     }
@@ -314,12 +315,13 @@ public class player : Character
         {
             
             HealthStat.CurrentValue -= 10;
-            
+            soundeffects.playSound("hurtSound");
             GameManager.Instance.CollectedCoins--;
            
 
             if (!IsDead)
             {
+                
                 if (GameManager.Instance.CollectedCoins <= 0)
                 {
 
@@ -360,12 +362,12 @@ public class player : Character
     public void BtnJump()
     {
         // Used for button to make player jump
-
+       
         if (OnGround && !IsDead)
         {
             MyAnimator.SetTrigger("jump");
             MyRigidbody.AddForce(new Vector2(0, jumpForce));
-
+            soundeffects.playSound("whoosh");
 
             Jump = true;
         }
@@ -375,6 +377,7 @@ public class player : Character
     {
         // Used for button to make player attack
         MyAnimator.SetTrigger("attack");
+        soundeffects.playSound("sword");
 
     }
 
@@ -382,12 +385,14 @@ public class player : Character
     {
         // Used for button to make player slide
         MyAnimator.SetTrigger("slide");
+        soundeffects.playSound("slide");
 
     }
     public void BtnThrow()
     {
         // Used for button to make player Throw
         MyAnimator.SetTrigger("throw");
+        soundeffects.playSound("throwknife");
 
     }
     public void BtnMove(float direction)
@@ -407,8 +412,10 @@ public class player : Character
     {
         if (other.gameObject.tag == "Coin")
         {
+            
             GameManager.Instance.CollectedCoins++;
             Destroy(other.gameObject);
+            soundeffects.playSound("coincollect");
         }
        
     }
