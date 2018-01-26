@@ -164,16 +164,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 740e6c29dd9ca044985dd0eb60e22bc8, type: 3}
-    m_FontSize: 50
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Credits
 --- !u!222 &75016521
@@ -218,8 +218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -82, y: 22}
-  m_SizeDelta: {x: 335.1, y: 91.1}
+  m_AnchoredPosition: {x: -40.2, y: 18.5}
+  m_SizeDelta: {x: 189.4, y: 51.8}
   m_Pivot: {x: 0.4743695, y: 0.90632695}
 --- !u!114 &236172483
 MonoBehaviour:
@@ -441,8 +441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119, y: 219.3}
-  m_SizeDelta: {x: 821.8, y: 150}
+  m_AnchoredPosition: {x: -61.1, y: 130.6}
+  m_SizeDelta: {x: 464.5, y: 85.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302576307
 MonoBehaviour:
@@ -585,8 +585,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: -236.59999}
-  m_SizeDelta: {x: 335.1, y: 91.1}
+  m_AnchoredPosition: {x: -34.5, y: -128.4}
+  m_SizeDelta: {x: 189.4, y: 51.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657435328
 MonoBehaviour:
@@ -767,7 +767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 5}
+  m_AnchoredPosition: {x: 0, y: -18}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751606352
@@ -791,7 +791,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 740e6c29dd9ca044985dd0eb60e22bc8, type: 3}
-    m_FontSize: 50
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Help
 
@@ -844,8 +844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 412.2, y: -231.19998}
-  m_SizeDelta: {x: 167, y: 120.2}
+  m_AnchoredPosition: {x: 239.1, y: -125.4}
+  m_SizeDelta: {x: 94.5, y: 68.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860497490
 MonoBehaviour:
@@ -1095,8 +1095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: -125.59999}
-  m_SizeDelta: {x: 335.1, y: 91.1}
+  m_AnchoredPosition: {x: -35.7, y: -65.4}
+  m_SizeDelta: {x: 189.4, y: 51.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253576010
 MonoBehaviour:
@@ -1337,8 +1337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 610.6, y: -231.19998}
-  m_SizeDelta: {x: 167, y: 120.2}
+  m_AnchoredPosition: {x: 351.3, y: -125.4}
+  m_SizeDelta: {x: 94.5, y: 68.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1622330921
 MonoBehaviour:
@@ -1539,8 +1539,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.863}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -479.4, y: 35.199997}
-  m_SizeDelta: {x: 441.7, y: 333.3}
+  m_AnchoredPosition: {x: -264.8, y: 26}
+  m_SizeDelta: {x: 249.7, y: 189.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769184400
 MonoBehaviour:
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

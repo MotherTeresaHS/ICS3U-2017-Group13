@@ -240,7 +240,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 309.88025
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -301,8 +301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 461, y: 164}
-  m_SizeDelta: {x: 107.1, y: 104.6}
+  m_AnchoredPosition: {x: 341, y: 101}
+  m_SizeDelta: {x: 85.4, y: 91.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &464205569
 MonoBehaviour:
@@ -461,8 +461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -813.25, y: -207.4}
-  m_SizeDelta: {x: 641.25, y: 60.3}
+  m_AnchoredPosition: {x: -656.7, y: -225.2}
+  m_SizeDelta: {x: 511.4, y: 52.7}
   m_Pivot: {x: -0.5071465, y: -1.1166489}
 --- !u!114 &853392014
 MonoBehaviour:
@@ -493,8 +493,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Sath Buttons - Audio
 --- !u!222 &853392015
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.474
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -695,8 +695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128, y: 33.5}
-  m_SizeDelta: {x: 720.1, y: 67}
+  m_AnchoredPosition: {x: -110.2, y: -14.8}
+  m_SizeDelta: {x: 574.3, y: 58.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350263238
 MonoBehaviour:
@@ -727,8 +727,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: GameART2d - Images and sprites
 --- !u!222 &1350263239
@@ -769,8 +769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888002, y: 195.4}
-  m_SizeDelta: {x: 214.8, y: 83.2}
+  m_AnchoredPosition: {x: -8, y: 126.7}
+  m_SizeDelta: {x: 171.4, y: 72.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491990319
 MonoBehaviour:
@@ -801,8 +801,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Credits
 --- !u!222 &1491990320
@@ -843,8 +843,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -167.4, y: -30.200003}
-  m_SizeDelta: {x: 641.2, y: 60.3}
+  m_AnchoredPosition: {x: -141.6, y: -70.4}
+  m_SizeDelta: {x: 511.4, y: 52.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2092815159
 MonoBehaviour:
@@ -875,8 +875,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Dante & Shnay - developers
 --- !u!222 &2092815160
